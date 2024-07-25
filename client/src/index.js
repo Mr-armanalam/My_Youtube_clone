@@ -15,7 +15,7 @@ const store = createstore(Reducers, compose(applyMiddleware(thunk)));
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
-    <GoogleOAuthProvider clientId="1093004509426-4i7ov2qoe7t21454sktg3kcbbncfoanj.apps.googleusercontent.com">
+    <GoogleOAuthProvider clientId="1093004509426-g7f8nub8n7pqcobpnj1tgitv5uh4ff6k.apps.googleusercontent.com">
       <React.StrictMode>
         <App />
       </React.StrictMode>
