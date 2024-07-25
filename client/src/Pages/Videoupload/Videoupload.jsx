@@ -28,7 +28,7 @@ const Videoupload = ({ setvideouploadpage }) => {
             alert("plz enter a title of the video")
         } else if (!videofile) {
             alert("plz attach a video file");
-        } else if (videofile.size > 1000000) {
+        } else if (videofile.size > 10485760) {
             alert("Plz attach video file less than 1 kb")
         } else {
             const filedata = new FormData()
